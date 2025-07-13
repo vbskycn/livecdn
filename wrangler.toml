@@ -1,0 +1,12 @@
+name = "livecdn-worker"
+main = "index.js"
+compatibility_date = "2024-06-01"
+
+[site]
+bucket = "."
+entry-point = "."
+
+# 如需绑定KV/R2等，可在此处添加
+# account_id = ""
+# zone_id = ""
+# route = "" 
