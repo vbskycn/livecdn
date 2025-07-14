@@ -1,0 +1,31 @@
+# Git 相关文件
+.git/
+.gitignore
+.gitattributes
+
+# 文档文件
+README.md
+*.md
+
+# 日志文件
+*.log
+logs/
+
+# 开发依赖
+node_modules/
+package-lock.json
+yarn.lock
+
+# 编辑器配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp 

@@ -1,6 +1,7 @@
 name = "livecdn-worker"
-compatibility_date = "2024-06-01"
 main = "index.js"
+compatibility_date = "2024-06-01"
 
-[site]
-bucket = "./public"
+
+[assets]
+directory = "static"
